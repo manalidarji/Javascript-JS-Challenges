@@ -1,0 +1,11 @@
+Dynamic colors
+
+Closures are functions that close over their lexical environment or their scope. 
+This allows us to access an outer function scope from an inner function. We use closures in many different places. 
+For example, if we're filtering an array of items, or if we're creating a timeout. 
+
+In this challenge, we'll use closures to create three buttons. 
+Each button will represent a different color and we'll change the background color of the document body to the color value. 
+
+Using a closure, create a function called changeColor that accepts a color value. 
+When the button is clicked, the closure should be invoked and the body background color should be updated. 
