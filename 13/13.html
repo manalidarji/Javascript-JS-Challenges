@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13</title>
+    <style>
+        body{height: 100vh; margin: 0; background: #dedede; display: flex; justify-content: center; transition: all 0.2s linear;text-align: center;}
+        .container{max-width: 800px;margin-top: 200px;}
+        h1{text-transform: uppercase;letter-spacing: 2px;color: #5255b8; border-bottom: 2px solid #5255b8;margin-bottom: 50px;}
+        #users-ul{display: flex;justify-content: center;gap: 30px;}
+        #users-ul li{list-style: none;}
+        button{background: #000; color: #fff; border: 1px solid #000; padding: 10px 15px; border-radius: 10px; letter-spacing: 1px; font-weight: 700; font-size: 20px; cursor: pointer;transition: all 0.3s linear;}
+        button:disabled{opacity: 0.2;cursor: not-allowed;}
+        p{font-size: 20px; line-height: 35px; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; margin-top: 0;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fetching API Data</h1>
+        <ul id="users-ul">
+            <li>Loading Data...</li>
+        </ul>
+    </div>
+
+    <script src="13.js"></script>
+</body>
+</html>
